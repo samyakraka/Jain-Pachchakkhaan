@@ -24,7 +24,7 @@ function calculatePrahar(sunrise, sunset) {
 
 document.getElementById('search-button').addEventListener('click', function() {
     const city = document.getElementById('city-input').value;
-    const apiKey = "47f1999f8cb27f081b564654013442a4"; // Your OpenWeather API key
+    const apiKey = "api_key"; // Your OpenWeather API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     fetch(url)
